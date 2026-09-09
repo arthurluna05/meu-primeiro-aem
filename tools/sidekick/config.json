@@ -1,0 +1,20 @@
+{
+    "project": "meu-primeiro-aem",
+
+  "plugins": [
+    {
+      "id": "aem-genai-variations",
+      "titleI18n": {
+        "en": "Generate with AI"
+      },
+      "environments": [
+        "preview"
+      ],
+      "includePaths": [
+        "**.docx**"
+      ],
+      "event": "aem-genai-variations-sidekick"
+    }
+  ]
+}
+
