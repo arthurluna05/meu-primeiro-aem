@@ -199,7 +199,6 @@ async function loadLazy(doc) {
   loadFonts();
 
   import('../tools/sidekick/aem-genai-variations.js');
-
 }
 
 /**
